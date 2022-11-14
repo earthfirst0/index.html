@@ -1,0 +1,360 @@
+/* comentario en css */
+
+.ht{
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+#bb{
+    color: red;
+}
+
+#aviso{
+    color: red;
+    background-color: black
+}
+
+#excla1{
+    background-color: black;
+    color: white;
+}
+
+#excla2{
+    background-color: black;
+    color: white;
+}
+
+#invisible + div{
+    visibility: hidden;
+}
+
+.singleCol{
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.accordion-button{
+    font-size: inherit;
+}
+
+.accordion-item{
+    border: 1px solid rgba(35, 65, 100, .15);
+}
+
+.accordion-button:not(.collapse) {
+    background-color: fuchsia;
+    background: rgb(35, 35, 100);
+    color: white;
+}
+
+.accordion-body{
+    background-color: black; 
+    color: white;
+}
+
+b{
+    color: yellow;
+    text-align: end;
+}
+
+.accordion-item{
+    background-color: black;
+}
+
+.accordion-color{
+    background-color: black;
+}
+
+
+#cuerpo{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 10;
+    background-color: rgb(0, 160, 0);
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: black;
+}
+
+button:hover{
+    background-color: fuchsia;
+}
+
+.container1{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.color-acento{ color:rgb(208, 255, 0); }
+
+header{
+    background-color: black;
+    
+}
+
+header .logo{
+    width: 175px;
+    height: 100px;
+}
+
+header .container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    color: fuchsia;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.ofmjpic.org%2Fwp-content%2Fuploads%2F2019%2F03%2FF_Buffon_Ecologia_Integrale.jpg&f=1&nofb=1&ipt=84f97cc8c7a2e0293bc4dbadde4a9559b4c9b6ad01c03fee7daf4e26556a3740&ipo=images");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+#somos-proya .container1{
+    text-align: justify;
+    padding: 150px 12px;
+}
+
+#nuestros-programas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: justify;
+}
+
+#nuestros-programas .container1{
+    padding: 50px 0px;
+}
+
+#nuestros-programas h2{
+    color: white;
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-programas p{
+    color: orange;
+    display: none;
+}
+
+#nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+#caracteristicas .container1{
+    text-align: center;
+    padding: 20px 12px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 9vw;
+}
+
+#final button{
+    font-size: 5vw;
+}
+
+footer{
+    background-color: black;
+    background: black;
+	padding: 1px;
+	box-sizing: border-box;
+}
+
+footer p{
+    margin: 25;
+    padding: 20px;
+    color: orange;
+}
+
+footer .container1{
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+	flex-direction: column;
+	border-collapse: collapse;
+}
+
+#datos {
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: space-between;
+}
+
+@media (min-width: 400px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container1{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+    #somos-proya .container1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-proya .texto{
+        width: 50%;
+        max-width: 450px;
+        text-align: justify;
+        padding-left: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-proya h2{
+        margin-top: 50px;
+    }
+
+    #somos-proya .img-container1{
+        background-image: url("imagenes/ecologia-2.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px; 
+    }
+
+
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-programas p{
+        display: block;
+        margin-bottom: 30px;
+        color: orange;
+        text-align: center;
+    }
+
+    #nuestros-programas h2{
+        font-size: 4em;
+    }
+
+    #nuestros-programas h3{
+        margin-top: 0;
+        color: white;
+    }
+
+    #nuestros-programas .carta{
+        padding: 100px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    #caracteristicas{
+        background-image: url("media/background-2.jpeg");
+        background-repeat: no-repeat;
+        background-size: 500px 400px;
+        background-position: calc(100vw - 500px) 120px;
+    }
+
+    #caracteristicas .container1{
+        text-align: center;
+    }
+
+    #caracteristicas ul{
+        margin-left: 100px;
+    }
+
+    #final h2{
+        font-size: 5em;
+    }
+
+    #final button{
+        font-size: 2em;
+    }
+
+}
